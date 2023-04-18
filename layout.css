@@ -1,0 +1,24 @@
+/* Style the header */
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  /* Style the list of rooms */
+  #room-list {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  #room-list li {
+    margin-bottom: 8px;
+  }
+  /* Style the map */
+  #map {
+    margin-bottom: 32px;
+  }
+  /* Style the nearest room */
+  #nearest-room {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

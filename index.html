@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Nearest Room Finder</title>
+    <!-- Import the Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <style>
+      /* Style the list of rooms */
+      #room-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      /* Style the map */
+      #map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Nearest Room Finder</h1>
+    <!-- Display the list of rooms -->
+    <h2>Rooms:</h2>
+    <ul id="room-list"></ul>
+    <!-- Display the map with the rooms -->
+    <h2>Map:</h2>
+    <div id="map"></div>
+    <!-- Display the nearest room -->
+    <h2>Nearest Room:</h2>
+    <p>The nearest room is: <span id="nearest-room"></span></p>
+    <!-- Import the JavaScript code -->
+    <script src="app.js"></script>
+  </body>
+</html>
